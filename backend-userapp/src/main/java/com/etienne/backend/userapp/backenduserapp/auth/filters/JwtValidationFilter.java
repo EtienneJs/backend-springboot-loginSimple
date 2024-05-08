@@ -1,12 +1,9 @@
 package com.etienne.backend.userapp.backenduserapp.auth.filters;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Base64;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.security.authentication.AuthenticationManager;
@@ -20,7 +17,6 @@ import com.etienne.backend.userapp.backenduserapp.auth.SimpleGrantedAuthorityJso
 import com.etienne.backend.userapp.backenduserapp.auth.TokenConfig;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.jsonwebtoken.ClaimJwtException;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
